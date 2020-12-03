@@ -1,0 +1,349 @@
+body{
+  
+  
+    background-color: blanchedalmond;
+    font: normal 20pt garamond; 
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+  
+    
+}
+h1{
+    
+    text-align: center;
+    -webkit-text-stroke-width: 2px;
+    -webkit-text-stroke-color: #000;
+    font-size: 3em; color: white;
+    transition: 1s all;
+ 
+  
+}
+
+p{
+    text-align: center;
+    font-size: 17px;
+    padding: 50px;
+ 
+}
+
+h1:hover{
+    transform: scale(1.2);
+}
+
+
+h3{
+   
+    font-size: 3em; color: white;
+    text-align: justify;
+   
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #000;
+    transition: 1s all;
+    font: normal 25pt Cambria; 
+
+}
+
+
+
+.cenario {
+  
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 55px;
+   
+}
+
+.cenario:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.cenario:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.wildadventure{
+   
+    background-color: silver;
+    margin-top:190px;
+    margin-left:500px;
+    width: 800px;
+    height: 430px;
+    border: solid 1px;
+    border-radius:15px;
+    opacity: 0.8;
+    
+}
+
+
+.decisaoCervo {
+  
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 370px;
+    margin-top: 17px;
+  
+ 
+    
+ 
+  
+}
+
+
+.decisaoCervo:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.decisaoCervo:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.cervo{
+    display:flex; 
+    align-content: flex-end;
+
+
+}
+
+
+.continue {
+  
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 370px;
+    margin-top: 17px;
+  
+  
+}
+
+
+.continue:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.continue:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+@media(max-width: 768px){
+    body{
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: blanchedalmond;
+        font: normal 20pt garamond; 
+        background-repeat: no-repeat;
+    }
+       
+    
+ 
+
+    .wildadventure{
+        display: flex;
+        align-content: center;
+        flex-direction: column;
+        align-items: flex-start;
+        background-color: silver;
+        margin-left:310px;
+      
+        margin-bottom: 100px;
+        border: solid 1px;
+        border-radius:15px;
+        opacity: 0.8;
+        
+    }
+
+    
+.cenario {
+  
+    
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 55px;
+    margin-top: 90px;
+}
+
+.cenario:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.cenario:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+.decisaoCervo {
+  
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 850px;
+    margin-top: 30px;
+ 
+    
+ 
+  
+}
+
+
+.decisaoCervo:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.decisaoCervo:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+.cervo{
+    display:flex; 
+    align-content: flex-end;
+
+
+}
+
+
+.continue {
+  
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 850px;
+    margin-top: 30px;
+ 
+    
+ 
+  
+}
+
+
+.continue:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.continue:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+
+
+.aguaContaminada {
+  
+    display: flex;
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    font-size: 1rem;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    border-radius: 10px;
+    background-color: rgb(24, 21, 21);
+    background-image: linear-gradient(to top left,
+    rgba(0, 0, 0, .2),
+    rgba(0, 0, 0, .2) 30%,
+    rgba(0, 0, 0, 0));
+    box-shadow: inset 2px 2px 3px rgba(238, 195, 195, 0.6),
+    inset -2px -2px 3px rgba(0, 0, 0, .6);
+    margin-left: 850px;
+    margin-top: 30px;
+ 
+    
+ 
+  
+}
+
+
+.aguaContaminada:hover {
+    background-color: rgb(100, 77, 77);
+}
+
+.aguaContaminada:active {
+    box-shadow: inset -2px -2px 3px rgba(255, 255, 255, .6),
+    inset 2px 2px 3px rgba(0, 0, 0, .6);
+}
+
+}

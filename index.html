@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="wildAdventure.css">
+  
+</head>
+<body>
+    
+
+    <div class="wildadventure" id="corpo" > 
+        <h1>Wild Adventure</h1>
+        
+        <p></p>
+        <h3></h3>
+        <div class="decisao" id="decisao-cenario"> 
+            <button class="cenario" onclick="cenario(this.value);" value="1" >Deserto da Namíbia</button>           
+            <button class="cenario" onclick="cenario(this.value);" value="2" >Floresta de Coníferas</button>           
+            <button class="cenario" onclick="cenario(this.value);" value="3" >Floresta de Daintree</button>           
+        </div>  
+
+
+        <div class="cervo" id="condicao" > 
+            <p></p>
+            <button class="decisaoCervo" onclick="decidirComer(this.value);" value="1">Sim</button>
+            <button class="decisaoCervo" onclick="decidirComer(this.value);" value="2">Não</button>
+            
+        </div>
+    
+        
+        
+        <div class="continuar" id="continuacao" > 
+            <p></p>
+            <button class="continue" onclick=" desejaContinuar(this.value);" value="1">Sim</button>
+            <button class="continue" onclick=" desejaContinuar(this.value);" value="2">Não</button>
+        </div> 
+    
+    </div>
+
+
+    
+  
+
+    <script src="game.js" ></script> 
+
+
+</body>
+</html>
